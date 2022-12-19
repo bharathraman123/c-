@@ -46,7 +46,7 @@ using namespace std;
      }
  };
 
-     void andi()
+     void display2()
      {
          string check;
          if(pass()==true)
