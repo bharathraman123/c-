@@ -46,6 +46,21 @@ using namespace std;
      }
  };
 
+     void andi()
+     {
+         string check;
+         if(pass()==true)
+         {
+             cout<<name<<"\t\t"<<attendence<<"\t\t"<<mark<<"\t\t"<<"passed"<<endl;
+         }
+         else
+         {
+             cout<<name<<"\t\t"<<attendence<<"\t\t"<<mark<<"\t\t"<<"fail"<<endl;
+         }
+
+         //cout<<name<<"\t\t"<<attendence<<"\t\t"<<mark<<"\t\t"<<check<<endl;
+     };
+ 
      
 
  int main()
